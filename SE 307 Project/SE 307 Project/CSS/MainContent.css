@@ -1,0 +1,44 @@
+﻿body 
+{
+    font-family:'Times New Roman';
+    background-color:darkgray;
+}
+
+.header 
+{
+    max-width: 1000px;
+    height: 132px;
+
+}
+
+
+.header a {
+    float: left;
+    color: floralwhite;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    border-color: black;
+    border-style: inset;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top:30px;
+}
+.header a:hover
+{
+    background-color:dimgray;
+    color:white;
+}
+.header a.active
+{
+    background-color:dimgray;
+    color:white;
+    
+}
+
+.body 
+{
+    max-width: 500px;
+    height: 80px;
+}
