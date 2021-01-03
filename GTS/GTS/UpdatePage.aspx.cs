@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace SE_307_Project
+namespace GTS
 {
     public partial class UpdatePage : System.Web.UI.Page
     {

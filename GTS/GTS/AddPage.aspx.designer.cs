@@ -8,7 +8,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace SE_307_Project
+namespace GTS
 {
     public partial class AddPage
     {

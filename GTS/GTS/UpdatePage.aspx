@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="UpdatePage.aspx.cs" Inherits="SE_307_Project.UpdatePage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="UpdatePage.aspx.cs" Inherits="GTS.UpdatePage" %>
 
 <!DOCTYPE html>
 

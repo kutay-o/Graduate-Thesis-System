@@ -8,7 +8,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
 
-namespace WebApplication2
+namespace GTS
 {
     public partial class WebForm1 : System.Web.UI.Page
     {

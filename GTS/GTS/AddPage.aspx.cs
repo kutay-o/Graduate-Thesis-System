@@ -7,7 +7,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-namespace SE_307_Project
+namespace GTS
 {
     public partial class AddPage : System.Web.UI.Page
     {
