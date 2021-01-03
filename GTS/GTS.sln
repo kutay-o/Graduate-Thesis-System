@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SE 307 Project", "SE 307 Project\SE 307 Project.csproj", "{56AFFCB6-5049-4C12-9F6A-26511C2BB25B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTS", "SE 307 Project\GTS.csproj", "{56AFFCB6-5049-4C12-9F6A-26511C2BB25B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
