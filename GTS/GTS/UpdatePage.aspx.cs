@@ -67,10 +67,12 @@ namespace GTS
                 conn.Open();
                 SqlParameter param = new SqlParameter("@name", txtInst.Text.Trim());
                 SqlParameter param2 = new SqlParameter("@id", Convert.ToInt32(ddlUniInst.SelectedValue));
+                SqlParameter param3 = new SqlParameter("@instid", Convert.ToInt32(ddlInst.SelectedValue));
 
-                comm = new SqlCommand("Update Institute set Name = @name where UniversityID = @id", conn);
+                comm = new SqlCommand("Update Institute set Name = @name where UniversityID = @id and InstituteID = @instid", conn);
                 comm.Parameters.Add(param);
                 comm.Parameters.Add(param2);
+                comm.Parameters.Add(param3);
                 comm.ExecuteNonQuery();
             }
             catch

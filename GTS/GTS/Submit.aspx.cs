@@ -35,7 +35,6 @@ namespace GTS
                     sqlCon.Open();
                     SqlCommand sqlCmd = new SqlCommand("AddThesis", sqlCon);
                     sqlCmd.CommandType = CommandType.StoredProcedure;
-                    // sqlCmd.Parameters.AddWithValue("@ThesisID", Convert.ToInt32(hfPersonID.Value == "" ? "0" : hfPersonID.Value));
                     sqlCmd.Parameters.AddWithValue("@name", txtfirstname.Text.Trim());
                     sqlCmd.Parameters.AddWithValue("@lastname", txtlastname.Text.Trim());
                     sqlCmd.Parameters.AddWithValue("@Title", txttitle.Text.Trim());
